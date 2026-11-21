@@ -1,0 +1,26 @@
+# Android / Gradle
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+build/
+/captures
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# 签名文件（不要上传）
+*.jks
+*.keystore
+keystore.properties
+
+# Kotlin / KSP
+.kotlin/
+
+# 其他
+*.log
+local.properties

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 极简表盘：白色细线圆环 + 圆头指针 + 主题紫中心点 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 表盘外圈 -->
+    <path
+        android:pathData="M28,54 A26,26 0 1,1 80,54 A26,26 0 1,1 28,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 时针（指向 12 点） -->
+    <path
+        android:pathData="M54,54 L54,39"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 分针（指向 3 点） -->
+    <path
+        android:pathData="M54,54 L68,54"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 主题色中心点 -->
+    <path
+        android:pathData="M50.5,54 A3.5,3.5 0 1,1 57.5,54 A3.5,3.5 0 1,1 50.5,54"
+        android:fillColor="#A79BFF" />
+</vector>
